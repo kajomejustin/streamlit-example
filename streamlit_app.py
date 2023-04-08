@@ -3,6 +3,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+st.beta_set_page_config(page_title='Kajome WebApps', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+
 st.title('Kajome Learning Material :flag-rw:')
 st.header('st.write')
 
